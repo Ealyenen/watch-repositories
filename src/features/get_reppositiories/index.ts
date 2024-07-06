@@ -1,0 +1,1 @@
+export {getReppositories} from "./request/request"

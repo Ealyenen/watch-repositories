@@ -1,0 +1,33 @@
+.text-field-wrap{
+    height: 44px;
+    position: relative;
+    padding: 4px;
+}
+
+.text-fieldset{
+    width: calc(100% - 12px);
+    height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    transition: .3s;
+    outline: none;
+    border: none;
+}
+
+.text-field {
+    margin: 0;
+    margin-top: 8px;
+    width: calc(100% - 12px);
+    outline: none;
+    transition: .3s;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.01rem;
+    letter-spacing: 1px;
+}

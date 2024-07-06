@@ -1,0 +1,6 @@
+.hover-effect{
+    transition: .3s;
+}
+
+.hover-effect:hover{
+}
